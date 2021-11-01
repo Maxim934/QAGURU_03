@@ -20,7 +20,7 @@ public class Peron {
         if (this.educated == true) {
             workless = false;
             System.out.println(name + " " + surname + " is hired to work");
-        } else{
+        } else {
             System.out.println("ask some question if yes hire");
             if (answer == "yes") {
                 workless = false;
@@ -32,10 +32,10 @@ public class Peron {
 
     public String toString() {
         if (this.workless == false) {
-            System.out.println(name + " " + surname +"\n" + "age: " + age +"\n" +  "gender: " + gender + " is hired to work");
+            System.out.println(name + " " + surname + "\n" + "age: " + age + "\n" + "gender: " + gender + " is hired to work");
             return null;
         } else {
-            System.out.println(name + " " + surname +"\n" + "age: " + age +"\n" +  "gender: " + gender + " is not hired to work");
+            System.out.println(name + " " + surname + "\n" + "age: " + age + "\n" + "gender: " + gender + " is not hired to work");
         }
         return null;
     }
