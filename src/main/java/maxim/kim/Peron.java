@@ -14,6 +14,7 @@ public class Peron {
         this.gender = gender;
         this.name = name;
         this.surname = surname;
+        this.workless = true;
     }
 
     void hireToWork(String answer) {
